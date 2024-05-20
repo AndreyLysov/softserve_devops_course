@@ -1,7 +1,10 @@
 #!/bin/bash 
-COUNTER=0 
-while [ $COUNTER -lt 10 ] 
+COUNTER=10
+while [ $COUNTER -lt 0 ]
 do 
    echo The counter is $COUNTER 
-   let COUNTER=$COUNTER+1 
+   let COUNTER=$COUNTER-1
 done
+
+
+echo 'completed'
